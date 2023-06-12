@@ -4,12 +4,12 @@ const Global = createGlobalStyle`
 
 *{
   margin:0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  paddding: 0;
-  font-family: 'Poppins', sans-serif
+  font-family: 'Poppins', sans-serif;
+  background-color:#f2f2f2;
 }
 `;
 
