@@ -4,7 +4,7 @@ export const Container = styled.div`
   max-width: 1120px;
   margin: 20px auto;
   width: 98%;
-  background-color:#fff;
+  background-color: #fff;
   box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
   display: flex;
@@ -13,9 +13,9 @@ export const Container = styled.div`
   gap: 10px;
 
   @media (max-width: 750px) {
-    display; grid;
+    display: grid;
   }
-  `;
+`;
 
 export const InputContent = styled.div`
   display: flex;
@@ -50,5 +50,5 @@ export const Button = styled.button`
   border-radius: 5px;
   cursor: pointer;
   color: white;
-  background-color: teal;
+  background-color: #39007c;
 `;
